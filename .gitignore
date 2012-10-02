@@ -1,0 +1,6 @@
+*.swp
+*.log
+.DS_*
+app/config/config.php
+app/config/database.php
+scripts/*
