@@ -7,9 +7,9 @@
     <meta name="author" content="">
     <title>Recuper@ - Web oficial del proyecto</title>
     <!-- Bootstrap -->
-    <link href="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/bootstrap.css" rel="stylesheet">
-    <link href="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/extra.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="http://vtellez.github.com/recupera/img/favicon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body style="padding-top:40px;">
 
@@ -21,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href=""><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/logo_mini.png" style="margin-top:-5px;"></a>
+          <a class="brand" href=""><img src="img/logo_mini.png" style="margin-top:-5px;"></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
             </ul>
@@ -29,7 +29,8 @@
  		<ul class="nav pull-right">
               <li><a data-toggle="modal" href="#download"><i class="icon-download-alt"></i> Descarga</a></li>
               <li><a data-toggle="modal" href="#comunity"><i class="icon-comment"></i> Comunidad</a></li>
-              <li><a href="http://vtellez.github.com/recupera/doc.html"><i class="icon-book"></i> Documentación</a></li>
+              <li><a data-toggle="modal" href="#pricing"><i class="icon-shopping-cart"></i> Soporte</a></li>
+              <li><a href="doc.html"><i class="icon-book"></i> Documentación</a></li>
                      
           </ul></div><!--/.nav-collapse -->
 
@@ -43,8 +44,8 @@
 <div class="row">
         <div class="span12">
          <div class="def">
-         <p class="pull-right"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/back_logo.png" style="padding-right:0px; "></p>
-	 <img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/logo.png"><br><br>
+         <p class="pull-right"><img src="img/back_logo.png" style="padding-right:0px; "></p>
+	 <img src="img/logo.png"><br><br>
          <p>Recuper@ es una aplicación web basada en <a href="http://es.wikipedia.org/wiki/Software_libre" target="_blank">Software libre</a><br> que te permite restaurar copias de seguridad de correo y calendario.</p>
 
       </div>
@@ -56,14 +57,14 @@
 <div id="download" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-              <h3><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/logo_mini.png" style="margin-top:-3px;">- Descarga</h3>
+              <h3><img src="img/logo_mini.png" style="margin-top:-3px;">- Descarga</h3>
             </div>
             <div class="modal-body">		
  				<div style="width:300px; margin:auto;">
  					<center>
- 						<a href="https://github.com/vtellez/recupera/tarball/master"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/down.png"><br>
+ 						<a href="https://github.com/vtellez/recupera/tarball/master"><img src="img/down.png"><br>
  						Download tar.gz</a><br><br>
- 						<p>Version	1.0.2 (<a href="http://vtellez.github.com/recupera/doc.html#releases">Release notes</a>)</p>
+ 						<p>Version	1.0.2 (<a href="doc.html#releases">Release notes</a>)</p>
 						<p>2012-Sept-29</p>
  					</center>
  				</div>
@@ -78,7 +79,7 @@
 <div id="comunity" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-              <h3><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/logo_mini.png" style="margin-top:-3px;">- Comunidad</h3>
+              <h3><img src="img/logo_mini.png" style="margin-top:-3px;">- Comunidad</h3>
             </div>
             <div class="modal-body">
               <h4><i class="icon-globe"></i> GitHub</h4>
@@ -108,6 +109,95 @@
 </div>
 
 
+
+
+
+
+<div id="pricing" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3 class="fuente"><img src="img/logo_mini.png" style="margin-top:-3px;"/>- Soporte y precios</h3>
+            </div>
+            <div class="modal-body">		
+		<p>Tabla de servicios en función del tipo de soporte:</p>
+ <table class="table table-bordered table-striped">
+  <thead>
+      <tr>
+        <th></th>
+        <th>Gratuito</th>
+        <th>Estándar</th>
+        <th>Avanzado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+	<td>Documentación</td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+      </tr>
+      <tr>
+	<td>Comunidad y soporte</td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+      </tr>
+      <tr>
+ 	<td>Instalación y configuración del sistema</td>
+        <td class="muted"><center>-</center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+      </tr>
+      <tr>
+ 	<td>Mantenimiento y actualización de versiones</td>
+        <td class="muted"><center>-</center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+      </tr>
+      <tr>
+	<td>Tiempo máximo de respuesta a incidencias</td>
+        <td class="muted"><center>-</center></td>
+        <td><center>24h.</center></td>
+        <td><center>8h.</center></td>
+      </tr>
+      <tr>
+	<td>Desarrollos y adaptaciones a medida</td>
+        <td class="muted"><center>-</center></td>
+        <td class="muted"><center>-</center></td>
+        <td><center><img src="img/tick.png"/></center></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+ <table class="table">
+    <tbody>
+      <tr>
+	<td style="width:290px;">&nbsp;</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+
+            </div>
+            <div class="modal-footer">
+		<a class="btn" href="mailto:contacto@vtellez.es">Solicitar soporte</a>
+              <button class="btn btn-primary" data-dismiss="modal">Cerrar ventana</button>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <ul id="myTab" class="nav nav-tabs">
               <li class="active"><a href="#screenshots" data-toggle="tab">Capturas de pantalla</a></li>
               <li><a href="#function" data-toggle="tab">Funcionalidades principales</a></li>
@@ -124,28 +214,28 @@
 <div class="row offset1">
             <ul class="thumbnails">
               <li class="span2">
-                <a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/asistente_1_b.png" data-fancybox-group="gallery" title="Asistente: Elección de recurso a recuperar">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/asistente_1_s.png">
+                <a class="fancybox" href="img/screens/asistente_1_b.png" data-fancybox-group="gallery" title="Asistente: Elección de recurso a recuperar">
+			<img class="img-polaroid" src="img/screens/asistente_1_s.png">
 		</a>
               </li>
               <li class="span2">
-                <a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/asistente_2_b.png" data-fancybox-group="gallery" title="Paso intermedio del asistente de recuperación de calendario">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/asistente_2_s.png">
+                <a class="fancybox" href="img/screens/asistente_2_b.png" data-fancybox-group="gallery" title="Paso intermedio del asistente de recuperación de calendario">
+			<img class="img-polaroid" src="img/screens/asistente_2_s.png">
 		</a>
               </li>
               <li class="span2">
- 		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/asistente_3_b.png" data-fancybox-group="gallery" title="Paso intermedio del asistente de recuperación de correo">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/asistente_3_s.png">
+ 		<a class="fancybox" href="img/screens/asistente_3_b.png" data-fancybox-group="gallery" title="Paso intermedio del asistente de recuperación de correo">
+			<img class="img-polaroid" src="img/screens/asistente_3_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/progreso1_b.png" data-fancybox-group="gallery" title="Vista detallada del progreso de recuperación">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/progreso1_s.png">
+		<a class="fancybox" href="img/screens/progreso1_b.png" data-fancybox-group="gallery" title="Vista detallada del progreso de recuperación">
+			<img class="img-polaroid" src="img/screens/progreso1_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/progreso2_b.png" data-fancybox-group="gallery" title="Recuperación finalizada con éxito">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/progreso2_s.png">
+		<a class="fancybox" href="img/screens/progreso2_b.png" data-fancybox-group="gallery" title="Recuperación finalizada con éxito">
+			<img class="img-polaroid" src="img/screens/progreso2_s.png">
 		</a>
               </li>
             </ul>
@@ -154,28 +244,28 @@
 <div class="row offset1">
             <ul class="thumbnails">
                <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/vista_recuperacion_b.png" data-fancybox-group="gallery" title="Vista detallada de la recuperación">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/vista_recuperacion_s.png">
+		<a class="fancybox" href="img/screens/vista_recuperacion_b.png" data-fancybox-group="gallery" title="Vista detallada de la recuperación">
+			<img class="img-polaroid" src="img/screens/vista_recuperacion_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/historial_b.png" data-fancybox-group="gallery" title="Historial de usuario">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/historial_s.png">
+		<a class="fancybox" href="img/screens/historial_b.png" data-fancybox-group="gallery" title="Historial de usuario">
+			<img class="img-polaroid" src="img/screens/historial_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/buscador_b.png" data-fancybox-group="gallery" title="Buscador global de recuperaciones">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/buscador_s.png">
+		<a class="fancybox" href="img/screens/buscador_b.png" data-fancybox-group="gallery" title="Buscador global de recuperaciones">
+			<img class="img-polaroid" src="img/screens/buscador_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/indicadores_globales_b.png" data-fancybox-group="gallery" title="Indicadores globales de la aplicación">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/indicadores_globales_s.png">
+		<a class="fancybox" href="img/screens/indicadores_globales_b.png" data-fancybox-group="gallery" title="Indicadores globales de la aplicación">
+			<img class="img-polaroid" src="img/screens/indicadores_globales_s.png">
 		</a>
               </li>
               <li class="span2">
-		<a class="fancybox" href="http://vtellez.github.com/recupera/img/screens/indicadores_usuarios_b.png" data-fancybox-group="gallery" title="Indicadores de usuario de la aplicación">
-			<img class="img-polaroid" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/indicadores_usuarios_s.png">
+		<a class="fancybox" href="img/screens/indicadores_usuarios_b.png" data-fancybox-group="gallery" title="Indicadores de usuario de la aplicación">
+			<img class="img-polaroid" src="img/screens/indicadores_usuarios_s.png">
 		</a>
               </li>
             </ul>
@@ -190,7 +280,7 @@
                 	<li>Recuper@ gestiona las solicitudes de restauración 
 de los usuarios y se encarga de ejecutar remotamente la recuperación en 
 la máquina que corresponda:<br>
-                		<br><center><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/func_b.png" class="img-polaroid"></center>	
+                		<br><center><img src="img/func_b.png" class="img-polaroid"></center>	
                 	</li><br>
                 	<li><b>Interfaz intuitiva en forma de asistente por pasos</b> que permite al usuario, recuperar una copia de seguridad de su buzón de correo electrónico y/o de sus calendarios virtuales.</li><br>
 			<li><b>Facilidad para ampliar la funcionalidad</b> de Recuper@: 
@@ -212,13 +302,13 @@ web implicados en el proceso de recuperación.</li><br>
  <div class="row-fluid">
             <ul class="thumbnails">
              <li class="span3">
-		<a href="http://www.dovecot.org/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/dovecot.png"></a>
+		<a href="http://www.dovecot.org/" target="_blank" class="thumbnail"><img src="img/logos/dovecot.png"></a>
               </li>
               <li class="span3">
-		<a href="http://www.davical.org/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/davical.png"></a>
+		<a href="http://www.davical.org/" target="_blank" class="thumbnail"><img src="img/logos/davical.png"></a>
               </li>
               <li class="span3">
-                <a href="http://www.bacula.org/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/bacula.png"></a>
+                <a href="http://www.bacula.org/" target="_blank" class="thumbnail"><img src="img/logos/bacula.png"></a>
               </li>
             </ul>
 </div>
@@ -236,16 +326,16 @@ web implicados en el proceso de recuperación.</li><br>
             <div class="row-fluid">
             <ul class="thumbnails">
               <li class="span3">
-                <a href="http://codeigniter.com/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/code_igniter.png"></a>
+                <a href="http://codeigniter.com/" target="_blank" class="thumbnail"><img src="img/tech/code_igniter.png"></a>
               </li>
               <li class="span3">
-		<a href="http://www.php.net/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/php.jpeg"></a>
+		<a href="http://www.php.net/" target="_blank" class="thumbnail"><img src="img/tech/php.jpeg"></a>
               </li>
               <li class="span3">
-		<a href="http://www.perl.org/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/perl.jpg"></a>
+		<a href="http://www.perl.org/" target="_blank" class="thumbnail"><img src="img/tech/perl.jpg"></a>
               </li>
               <li class="span3">
- 		<a href="http://www.gnu.org/software/bash/manual/bashref.html" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/bash.jpg"></a>
+ 		<a href="http://www.gnu.org/software/bash/manual/bashref.html" target="_blank" class="thumbnail"><img src="img/tech/bash.jpg"></a>
               </li>
             </ul>
 </div>
@@ -255,16 +345,16 @@ web implicados en el proceso de recuperación.</li><br>
             <div class="row-fluid">
             <ul class="thumbnails">
               <li class="span3">
-                <a href="http://www.w3schools.com/html5/default.asp" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/html.png"></a>
+                <a href="http://www.w3schools.com/html5/default.asp" target="_blank" class="thumbnail"><img src="img/tech/html.png"></a>
               </li>
               <li class="span3">
- 		<a href="http://www.w3schools.com/css3/default.asp" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/css3.jpg"></a>
+ 		<a href="http://www.w3schools.com/css3/default.asp" target="_blank" class="thumbnail"><img src="img/tech/css3.jpg"></a>
               </li>
               <li class="span3">
- 		<a href="http://jquery.com/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/jquery.png"></a>
+ 		<a href="http://jquery.com/" target="_blank" class="thumbnail"><img src="img/tech/jquery.png"></a>
               </li>
               <li class="span3">
- 		<a href="http://jqueryui.com/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/jqueryui.png"></a>
+ 		<a href="http://jqueryui.com/" target="_blank" class="thumbnail"><img src="img/tech/jqueryui.png"></a>
               </li>
             </ul>
 </div>
@@ -278,7 +368,7 @@ web implicados en el proceso de recuperación.</li><br>
  <div class="row-fluid">
             <ul class="thumbnails">
               <li class="span3">
-				<a href="http://seguimiento.us.es/" target="_blank" class="thumbnail"><img src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/logo-us.gif"></a>
+				<a href="http://recupera.us.es/" target="_blank" class="thumbnail"><img src="img/client/logo-us.gif"></a>
               </li>
 
             </ul>
@@ -300,16 +390,16 @@ web implicados en el proceso de recuperación.</li><br>
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
+     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
      <!-- Add jQuery library -->
-	<script type="text/javascript" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/jquery-1.js"></script>
+	<script type="text/javascript" src="js/fancy/lib/jquery-1.8.0.min.js"></script>
 
 	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/jquery.js"></script>
-	<link rel="stylesheet" type="text/css" href="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/jquery.css" media="screen">
+	<script type="text/javascript" src="js/fancy/source/jquery.fancybox.js?v=2.1.0"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancy/source/jquery.fancybox.css?v=2.1.0" media="screen" />
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -323,7 +413,7 @@ web implicados en el proceso de recuperación.</li><br>
 	</script>
      
    
-    <script src="Recuper@%20-%20Web%20oficial%20del%20proyecto_files/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
     
     
 </body></html>
