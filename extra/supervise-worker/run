@@ -1,0 +1,11 @@
+#!/bin/bash
+
+USUARIO=root
+RUTA=/var/www/html/recupera
+
+exec /usr/local/bin/setuidgid $USUARIO \
+        /usr/local/bin/softlimit -m 268435456 \
+        /usr/bin/php \
+        ${RUTA}/extra/worker.php \
+        -c $RUTA \
+        -d
