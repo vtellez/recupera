@@ -37,7 +37,8 @@ class Logout extends Controller {
                 $this->session->set_userdata(array());
 
                 $this->session->sess_destroy();
-                redirect(OPENSSO_LOGOUT_URL);
+		//redirect(OPENSSO_LOGOUT_URL);
+                $this->controlacceso->logout();
         }
 
 }

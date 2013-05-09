@@ -80,4 +80,14 @@ class Controlacceso {
                 return in_array($this->identidad, $admins);
         }
 
+        /**
+         * Logout de usuario
+         */
+
+        function logout() {
+                $this->o->logout(TRUE);
+        }
+
+
+
 }
