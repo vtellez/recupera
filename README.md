@@ -1,26 +1,26 @@
 Recuper@
 ========
 
-Recuper@ es una aplicación web basada en Software libre
-que te permite restaurar copias de seguridad de correo y calendario.
-El código fuente de Recuper@ sigue la licencia pública general de Affero
+Recuper@ is a Free Software web application that lets you
+restore backups of your emails, calendar and contacts.
+
+Released under GNU Affero General Public License
 (http://www.gnu.org/licenses/agpl-3.0.html).
 
 
-Web oficial
------------
+Official website
+-----------------
 
-Puede encontrar más información del proyecto en http://recupera.org.es/
-
-Documentación: http://recupera.org.es/doc.html
+PYou can find more info about this project at http://recupera.org.es/
 
 
-Agradecimientos
----------------
 
-Recuper@ existe gracias a los siguientes proyectos:
+Thanks
+-------
+
+Recuper@ is possible thanks to the following projects:
 
 * [CodeIgniter](http://codeigniter.com)
 * [jQuery](http://jquery.com)
 * [jQuery UI](http://jqueryui.com)
-* Y otros proyectos que quizás olvide mencionar (por favor, pida reconocimiento)
+* And other projects I may forget (please, ask for credit!)
