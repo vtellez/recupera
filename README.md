@@ -1,8 +1,8 @@
-Recuper@
-========
+BringBack
+=========
 
-Recuper@ is a Free Software web application that lets you
-restore backups of your emails, calendar and contacts.
+BringBack is a Free Software tool that lets you restore
+yours email, calendars and contacts from a backup server.
 
 Released under GNU Affero General Public License
 (http://www.gnu.org/licenses/agpl-3.0.html).
@@ -23,7 +23,7 @@ You can find this project's documentation at http://recupera.org.es/doc/
 Thanks
 -------
 
-Recuper@ is possible thanks to the following projects:
+BringBack is possible thanks to the following projects:
 
 * [CodeIgniter](http://codeigniter.com)
 * [jQuery](http://jquery.com)
