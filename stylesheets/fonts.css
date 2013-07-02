@@ -11,7 +11,7 @@ body input, body textarea {
 .logo {
   font-family: 'Handlee';
   float: left;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 25px;
   margin-bottom: 20px;
   font-size: 45px;
