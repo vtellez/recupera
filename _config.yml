@@ -5,5 +5,4 @@ destination: ./_site
 pygments: true
 permalink: pretty
 url: http://recupera.org.es/
-url: http://choquito.us.es/recj/
 appn: BringBack
