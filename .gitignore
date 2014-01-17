@@ -4,5 +4,5 @@
 app/config/config.php
 app/config/database.php
 scripts/*
-extra/supervise-worker/log/*
-extra/supervise-worker/supervise/*
+extra/supervise-worker/log/main
+supervise
