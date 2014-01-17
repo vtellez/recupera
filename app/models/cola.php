@@ -45,6 +45,7 @@ class cola extends Model {
                 $host = $this->config->item('beanstalkd_host');
                 $port = $this->config->item('beanstalkd_port');
                 $tube = $this->config->item('beanstalkd_tube');
+                $ttr = $this->config->item('beanstalkd_ttr');
 
                 $exito = FALSE;
 
@@ -56,7 +57,7 @@ class cola extends Model {
 
 	                        $pheanstalk
         	                        ->useTube($tube)
-                	                ->put($param, 1);
+        	                        ->put($param, 1, 0, $ttr);
 			}
                        	$exito = TRUE;
                 } catch (Exception $e) {

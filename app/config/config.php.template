@@ -36,6 +36,7 @@ $config['wspass'] = 'xxxxxxxx';
 $config['beanstalkd_host'] = "127.0.0.1";
 $config['beanstalkd_port'] = 11300;
 $config['beanstalkd_tube'] = 'tuberia';
+$config['beanstalkd_ttr'] = 600; // 10 minutes
 
 
 /*
